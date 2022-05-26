@@ -1,0 +1,126 @@
+.App {
+    overflow: hidden;
+}
+/*STATE CHANGING BUTTONS*/
+/* .app-state-changing {
+    top: 50%;
+    border: 1px solid red;
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    justify-content: space-between;
+}
+.app-state-changing-button {
+    border: 1px solid blue;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+span {
+    padding-left: 8px;
+    /*add cool shadows too font*/
+
+/*LOADER CSS*/
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#square-loader {
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+#square-loader div {
+    margin: 3px;
+    height: 30px;
+    width: 30px;
+    background: var(--backgroundInverted);
+    opacity: 0;
+    display: inline-block;
+    animation: displaySquare 1s ease-in infinite;
+}
+@keyframes displaySquare {
+    100% {
+        opacity: 1;
+    }
+}
+
+#square-loader div:nth-child(1) {
+    animation-delay: 0.4s;
+}
+#square-loader div:nth-child(2) {
+    animation-delay: 0.5s;
+}
+#square-loader div:nth-child(3) {
+    animation-delay: 0.3s;
+}
+#square-loader div:nth-child(4) {
+    animation-delay: 0.6s;
+}
+#square-loader div:nth-child(5) {
+    animation-delay: 10000000s;
+    background-color: var(--background);
+}
+#square-loader div:nth-child(6) {
+    animation-delay: 0.2s;
+}
+#square-loader div:nth-child(7) {
+    animation-delay: 0.5s;
+}
+#square-loader div:nth-child(8) {
+    animation-delay: 0.8s;
+}
+#square-loader div:nth-child(9) {
+    animation-delay: 0.1s;
+}
+/*LOADER CSS END*/
+
+/*Main Page CSS*/
+/* .main-page-content {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+}
+.main-page-content-box {
+    height: 100px;
+    border: 1px solid blue;
+}
+.main-page-content-one {
+    border-radius: 6px;
+
+    border: 1px solid #1bb76e;
+    height: 40px;
+    margin-left: 10%;
+    width: 60%;
+    background-color: #1bb76e;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page-content-two {
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-left: 30%;
+    height: 40px;
+
+    width: 60%;
+    background-color: #1bb76e;
+    font-size: 16px;
+    border: 1px solid #1bb76e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
